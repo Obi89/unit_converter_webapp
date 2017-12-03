@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="main">
+    <style>.main{background-image: url(assets/img/street.jpeg);}</style>
+    <div class="maincontent">
+    <h1>Hello, User!</h1>
+        <h2>Welcome to the Unit Converter!</h2>
+ <form method="post" action="/result">
+        <input type="number" name="num" required>
+
+        <select name="unit">
+          <option value="km/miles">km/miles</option>
+          <option value="miles/km">miles/km</option>
+          <option value="km/seemile">km/seemile</option>
+          <option value="km/yard">km/yard</option>
+        </select>
+
+     <button class="btn2" type="submit">Calculate!</button>
+</form>
+</div>
+    </div>
+</body>
+</html>

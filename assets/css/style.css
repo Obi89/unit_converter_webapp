@@ -1,0 +1,86 @@
+body {
+text-align: center;
+}
+.main{
+  width: auto;
+  border: white solid 0.2px;
+  margin-top: 0px;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+}
+.maincontent{
+  margin: 50px 200px 0px 200px;
+  padding: 10px 0px 30px 0px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Titillium Web', sans-serif;
+  background-color: rgba(120, 120, 120, 0.7);
+  border-top: solid white 0.5px;
+  border-bottom: solid white 0.5px;
+}
+
+h1{
+    font-size: 50px;
+    color: rgb(229, 37, 16)
+}
+
+form{
+    font-size: 28px;
+}
+
+h2{
+    font-size: 50px;
+}
+.btn{
+color: white;
+border: white solid 0.5px;
+border-radius: 3px;
+text-decoration: none;
+padding: 5px;
+}
+
+.btn:hover{
+color: rgb(229, 37, 16);
+font-size: 20px;
+border: rgb(229, 37, 16) solid 0.5px;
+}
+.btn2{
+color: black;
+border: white solid 0.5px;
+border-radius: 3px;
+text-decoration: none;
+padding: 5px;
+}
+.btn2:hover{
+font-size: 17px;
+}
+.links{
+  margin: 20px 200px 0px 200px;
+  padding: 10px 0px 30px 0px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Titillium Web', sans-serif;
+  background-color: rgba(120, 120, 120, 0.7);
+  border-top: solid white 0.5px;
+  border-bottom: solid white 0.5px;
+}
+.link_img{
+width: 280px;
+}
+.link_img:hover{
+width: 300px;
+border: black solid 1px;
+}
+.link_img2{
+width: 240px;
+margin-left: 30px;
+}
+.link_img2:hover{
+width: 260px;
+border: black solid 1px;
+}
